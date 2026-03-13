@@ -1,1 +1,25 @@
+-> I vl have following ppl having login access 
+	a. HR 
+	b. Employee 
+	c. Manager
+ 
+HR 
+---
+1. Onboard Employee - personal details , academic details, documents , declarations
+ 
+1 Story: 
+employee will get this form (multi - step form) and provide these details with uploads 
+HR will review it and accept it. 
+HR will add employee package details(CTC)
+ 
+ 
+2 Story
+Employee can login and see all the project details and the tasks assigned to it. 
+Employee can access package details (CTC)
+Employee can apply for the leave , and manager can approve/reject the leave
+ 
+3 Story
+Manager will add employee to existing projects and start assigning the task to employee 
+and manager can approve/reject the leave
+
 
