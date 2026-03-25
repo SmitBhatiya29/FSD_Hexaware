@@ -1,0 +1,42 @@
+-> I vl have following ppl having login access 
+	a. HR 
+	b. Employee 
+	c. Manager
+ 
+HR 
+---
+1. Onboard Employee - personal details , academic details, documents , declarations
+ 
+1 Story: 
+employee will get this form (multi - step form) and provide these details with uploads 
+HR will review it and accept it. 
+HR will add employee package details(CTC)
+ 
+ 
+2 Story
+Employee can login and see all the project details and the tasks assigned to it. 
+Employee can access package details (CTC)
+Employee can apply for the leave , and manager can approve/reject the leave
+ 
+3 Story
+Manager will add employee to existing projects and start assigning the task to employee 
+and manager can approve/reject the leave
+
+
+
+
+
+1. The process begins with the Admin/HR Manager. 
+Their first task is to use the Employee Management page to "onboard" a new person. They set up the user account and assign a specific role
+
+ 2. The Employee ExperienceOnce added
+the Employee logs in via a secure JWT-authenticated
+The employee uses the Personal Information page to update their contact details ..
+Time Tracking: If they are an hourly worker, they submit their work hours through ..
+Leave Requests: When they need time off, they submit a formal request through the Leave Request feature.
+
+3.The Manager's Oversight
+The Manager/Supervisor receives a notification about the new request. They log into their dashboard to
+Review Team Payroll: View the specific payroll information for their direct reports.
+Approve Leaves: Review the details of the leave request and officially Approve or deny 
+

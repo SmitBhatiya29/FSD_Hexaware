@@ -1,0 +1,112 @@
+1. Add New User
+2. Add new Item
+3. Fetch All Item
+4. Fetch Item by  User Name
+5. Delete an Item.
+0. Exit
+1
+Enter user name
+Dev
+Which memebership you belongs to?
+1. Normal
+2. Premium
+2
+AOP method execution started: addUserStated at :17:15:48.391732300
+AOP method execution Ended: addUserEnded at :17:15:49.023158500
+User added successfully
+
+
+1. Add New User
+2. Add new Item
+3. Fetch All Item
+4. Fetch Item by  User Name
+5. Delete an Item.
+0. Exit
+2
+Enter item name
+laptop
+Enter item price
+55000
+Enter item quantity
+2
+Enter your user Id
+2
+AOP method execution started: addItemStated at :17:16:21.106764
+AOP method execution Ended: addItemEnded at :17:16:21.155442900
+
+
+1. Add New User
+2. Add new Item
+3. Fetch All Item
+4. Fetch Item by  User Name
+5. Delete an Item.
+0. Exit
+3
+AOP method execution started: getAllItemsStated at :17:16:44.211208300
+AOP method execution Ended: getAllItemsEnded at :17:16:44.294135400
+CartItem{id=4, name='vivo', price=50000.00, quantity=12, user_id=2}
+CartItem{id=5, name='laptop', price=55000.00, quantity=2, user_id=2}
+
+
+1. Add New User
+2. Add new Item
+3. Fetch All Item
+4. Fetch Item by  User Name
+5. Delete an Item.
+0. Exit
+4
+Enter User name
+smit
+AOP method execution started: fetchItemsByUserNameStated at :17:17:40.653772300
+AOP method execution Ended: fetchItemsByUserNameEnded at :17:17:40.721606200
+CartItem{id=4, name='vivo', price=50000.00, quantity=12, user_id=2}
+CartItem{id=5, name='laptop', price=55000.00, quantity=2, user_id=2}
+
+
+1. Add New User
+2. Add new Item
+3. Fetch All Item
+4. Fetch Item by  User Name
+5. Delete an Item.
+0. Exit
+5
+Enter item id
+4
+AOP method execution started: deleteItemByIdStated at :17:18:10.133276500
+AOP method execution Ended: deleteItemByIdEnded at :17:18:10.205087500
+Item Deleted Successfully....
+
+1. Add New User
+2. Add new Item
+3. Fetch All Item
+4. Fetch Item by  User Name
+5. Delete an Item.
+0. Exit
+
+5
+Enter item id
+112
+AOP method execution started: deleteItemByIdStated at :17:18:32.802848400
+AOP method execution Ended: deleteItemByIdEnded at :17:18:32.835841700
+Item Id is Invalid ....
+
+1. Add New User
+2. Add new Item
+3. Fetch All Item
+4. Fetch Item by  User Name
+5. Delete an Item.
+0. Exit
+3
+AOP method execution started: getAllItemsStated at :17:19:02.031304
+AOP method execution Ended: getAllItemsEnded at :17:19:02.067261100
+CartItem{id=5, name='laptop', price=55000.00, quantity=2, user_id=2}
+
+1. Add New User
+2. Add new Item
+3. Fetch All Item
+4. Fetch Item by  User Name
+5. Delete an Item.
+0. Exit
+0
+
+Process finished with exit code 0
